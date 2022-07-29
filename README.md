@@ -8,6 +8,15 @@
 
 O desafio era criar uma API para gerenciar finanças de um estudante. Este projeto foi criado utilizando: [nestjs](https://docs.nestjs.com/#alternatives "doc nestjs"), [typeorm](https://typeorm.io/ "doc typeorm"), [typeScript](https://www.typescriptlang.org/ "doc typescript"), [docker-compose](https://docs.docker.com/compose/overview/ "doc docker-compose"), [node](https://nodejs.org/en/ "doc node"), [mysql](https://www.mysql.com/ "doc mysql"), [jest](https://jestjs.io/ "doc jest"), [bcrypt](https://www.npmjs.com/package/bcrypt "doc bcrypt"), [postman](https://www.postman.com/ "doc postman"), [eslint](https://eslint.org/ "doc eslint"), [prettier](https://prettier.io/ "doc prettier"). Validação de entrada de dados feita com [class-validator](https://www.npmjs.com/package/class-validator "docs class-validator").
 
+<details>
+  <summary><strong>Imagem do banco de dados</strong></summary><br />
+
+| ![Banco de Dados](./src/image/database.png) |
+|---------------------------------------------|
+| _Modelo_,  _Tabelas_,  _Campos_             |
+
+</details>
+
 ## Rodando localmente
 
 ### Baixando o projeto
@@ -390,11 +399,6 @@ $ npm run test:cov
 
 </details>
 
-## Banco de Dados
-
-| ![Banco de Dados](./src/image/database.png) |
-|-----------------------------------------|
-| _Modelo_,  _Tabelas_,  _Campos_         |
 ## License
 
   Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
