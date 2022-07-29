@@ -226,23 +226,13 @@ $ npm run test:cov
 
       ```json
       {
-          "infoPage": {
-              "totalPage": 1,
-              "currentPage": 1,
-              "totalItems": 1,
-              "itemsPerPage": 10
-          },
-          "data": [
-              {
-                  "id": 1,
-                  "title": "Salário",
-                  "value": "3000.1",
-                  "createdDate": "2022-07-10 05:03:45.344",
-                  "updatedDate": null,
-                  "inputValue": true,
-                  "description": ""
-              }
-          ]
+          "id": 1,
+          "title": "Salário",
+          "value": "3000.1",
+          "createdDate": "2022-07-29 20:36:46.990",
+          "updatedDate": null,
+          "inputValue": true,
+          "description": ""
       }
       ```
 
