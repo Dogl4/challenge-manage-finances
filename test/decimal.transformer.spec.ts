@@ -1,5 +1,5 @@
 import Decimal from 'decimal.js';
-import { DecimalTransformer } from 'src/util/DecimalTransformer';
+import { DecimalTransformer } from '../src/util/DecimalTransformer';
 
 describe('DecimalTransformer', () => {
   const format: DecimalTransformer = new DecimalTransformer();

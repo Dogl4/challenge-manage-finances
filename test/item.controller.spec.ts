@@ -6,7 +6,7 @@ import { User } from '../src/entity/user.entity';
 import 'reflect-metadata';
 import { createRequest, createResponse } from 'node-mocks-http';
 import { createItemDto } from '../src/schema/item.create.dto';
-import { DecimalTransformer } from 'src/util/DecimalTransformer';
+import { DecimalTransformer } from '../src/util/DecimalTransformer';
 
 const newUserEntity: User = new User({
   id: 1,

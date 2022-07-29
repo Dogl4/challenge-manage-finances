@@ -10,7 +10,7 @@ import {
   UseFilters,
 } from '@nestjs/common';
 import { Response } from 'express';
-import { BadRequestExceptionFilter } from 'src/schema/ExceptionFilter';
+import { BadRequestExceptionFilter } from '../schema/ExceptionFilter';
 import { createUserDto as IUser } from '../schema/user.dto';
 import { User } from '../entity/user.entity';
 import { UserService } from '../services/user.service';

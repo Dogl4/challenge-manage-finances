@@ -13,7 +13,7 @@ import {
   UseFilters,
 } from '@nestjs/common';
 import { Response } from 'express';
-import { BadRequestExceptionFilter } from 'src/schema/ExceptionFilter';
+import { BadRequestExceptionFilter } from '../schema/ExceptionFilter';
 import { createItemDto as IItem } from '../schema/item.create.dto';
 import { dateFilterDto as IDateFilter } from '../schema/date.filter.dto';
 import { Item } from '../entity/item.entity';

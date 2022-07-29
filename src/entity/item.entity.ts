@@ -1,6 +1,6 @@
 import Decimal from 'decimal.js';
 import { User } from './user.entity';
-import { DecimalTransformer } from 'src/util/DecimalTransformer';
+import { DecimalTransformer } from '../util/DecimalTransformer';
 import {
   Entity,
   Column,
