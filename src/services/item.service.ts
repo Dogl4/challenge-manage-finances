@@ -2,7 +2,7 @@ import { Injectable, Inject, HttpException, HttpStatus } from '@nestjs/common';
 import Decimal from 'decimal.js';
 import { DecimalTransformer } from 'src/util/DecimalTransformer';
 import { Repository, Between } from 'typeorm';
-import { Item } from './item.entity';
+import { Item } from '../entity/item.entity';
 @Injectable()
 export class ItemService {
   constructor(

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { Repository } from 'typeorm';
-import { Item } from './item.entity';
-import { ItemService } from './item.service';
+import { Item } from '../src/entity/item.entity';
+import { ItemService } from '../src/services/item.service';
 
 describe('ItemService', (): void => {
   let itemService: ItemService;

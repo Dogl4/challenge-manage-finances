@@ -1,11 +1,11 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ItemController } from './item.controller';
-import { ItemService } from './item.service';
-import { Item } from './item.entity';
-import { User } from 'src/user/user.entity';
+import { ItemController } from '../src/controllers/item.controller';
+import { ItemService } from '../src/services/item.service';
+import { Item } from '../src/entity/item.entity';
+import { User } from '../src/entity/user.entity';
 import 'reflect-metadata';
 import { createRequest, createResponse } from 'node-mocks-http';
-import { createItemDto } from './dto/item.create.dto';
+import { createItemDto } from '../src/schema/item.create.dto';
 import { DecimalTransformer } from 'src/util/DecimalTransformer';
 
 const newUserEntity: User = new User({

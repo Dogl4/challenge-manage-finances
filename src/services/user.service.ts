@@ -1,7 +1,7 @@
 import { Injectable, Inject, HttpException, HttpStatus } from '@nestjs/common';
 import { Repository } from 'typeorm';
-import { createUserDto } from './dto/user.dto';
-import { User } from './user.entity';
+import { createUserDto } from '../schema/user.dto';
+import { User } from '../entity/user.entity';
 import * as bcrypt from 'bcrypt';
 
 @Injectable()

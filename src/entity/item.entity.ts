@@ -1,5 +1,5 @@
 import Decimal from 'decimal.js';
-import { User } from 'src/user/user.entity';
+import { User } from './user.entity';
 import { DecimalTransformer } from 'src/util/DecimalTransformer';
 import {
   Entity,

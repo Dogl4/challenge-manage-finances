@@ -1,8 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { UserController } from './user.controller';
-import { UserService } from './user.service';
-import { User } from './user.entity';
-import { createUserDto } from './dto/user.dto';
+import { UserController } from '../src/controllers/user.controller';
+import { UserService } from '../src/services/user.service';
+import { User } from '../src/entity/user.entity';
+import { createUserDto } from '../src/schema/user.dto';
 import 'reflect-metadata';
 import { createResponse } from 'node-mocks-http';
 

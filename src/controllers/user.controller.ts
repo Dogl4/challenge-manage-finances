@@ -11,9 +11,9 @@ import {
 } from '@nestjs/common';
 import { Response } from 'express';
 import { BadRequestExceptionFilter } from 'src/schema/ExceptionFilter';
-import { createUserDto as IUser } from './dto/user.dto';
-import { User } from './user.entity';
-import { UserService } from './user.service';
+import { createUserDto as IUser } from '../schema/user.dto';
+import { User } from '../entity/user.entity';
+import { UserService } from '../services/user.service';
 
 @Controller('user')
 export class UserController {

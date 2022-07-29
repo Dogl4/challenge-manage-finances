@@ -402,7 +402,7 @@ $ npm run test:cov
 
 ## Banco de Dados
 
-| ![Banco de Dados](./image/database.png) |
+| ![Banco de Dados](./src/image/database.png) |
 |-----------------------------------------|
 | _Modelo_,  _Tabelas_,  _Campos_         |
 ## License

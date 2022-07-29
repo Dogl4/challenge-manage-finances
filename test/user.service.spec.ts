@@ -1,8 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { Repository } from 'typeorm';
-import { createUserDto } from './dto/user.dto';
-import { User } from './user.entity';
-import { UserService } from './user.service';
+import { createUserDto } from '../src/schema/user.dto';
+import { User } from '../src/entity/user.entity';
+import { UserService } from '../src/services/user.service';
 
 const userEntityList: User[] = [
   new User({ email: 'test1@email', name: 'test-1', password: '123456' }),
